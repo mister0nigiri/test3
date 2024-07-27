@@ -289,6 +289,49 @@
       <h2 class="contact__title">お問い合わせ</h2>
       <h2 class="conatct__title-en">contact</h2>
       <p>もしご興味をお持ちいただけたら、ぜひ一度サンズについてお話しさせてください。</p>
+      <form class="form" action="#" method="post">
+        <div class="form__item">
+          <label for="name">お名前<strong>必須</strong></label>
+          <div class="form__body">
+            姓<input type="text" required id="name" name="name"> 名<input type="text" required id="name" name="name">
+          </div>
+        </div>
+        <div class="form__item">
+          <label for="furigana">フリガナ<strong>必須</strong></label>
+          <div class="form__body">
+            姓<input type="text" required id="furigana" name="furigana"> 名<input type="text" required id="furigana" name="furigana">
+          </div>
+        </div>
+        <div class="form__item">
+          <label for="email">メールアドレス<strong>必須</strong></label>
+          <div class="form__body">
+            <input type="email" required id="email" name="email">
+          </div>
+        </div>
+        <div class="form__item">
+          <label for="tel">電話番号<strong>必須</strong></label>
+          <div class="form__body">
+            <input type="tel" required id="tel" name="tel">
+          </div>
+        </div>
+        <div class="form__item">
+          <p>お持ちの資格<strong>必須</strong></p>
+          <div class="form__body">
+            <input type="checkbox" name="license" id="registered" value="正看護師">
+            <label for="registered">正看護師</label>
+            <input type="checkbox" name="license" id="Associate" value="准看護師">
+            <label for="Associate">准看護師</label>
+          </div>
+        </div>
+        <div class="form__item">
+          <label for="textarea">備考</label>
+          <div class="form__body">
+            <textarea name="textarea" id="textarea" cols="30" rows="5"></textarea>
+          </div>
+        </div>
+        <button class="submit-btn">ご応募・お問い合わせ</button>
+
+      </form>
     </section>
   </main>
   <footer class="footer">
