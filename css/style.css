@@ -132,6 +132,30 @@ li{
   z-index: -1;
 }
 
+.polka1{
+  position: absolute;
+  top: 100px;
+  left: 280px;
+  width: 200px;
+  height: 200px;
+}
+
+.polka2{
+  position: absolute;
+  bottom: 100px;
+  left: 53%;
+  width: 200px;
+  height: 200px;
+}
+
+.polka3{
+  position: absolute;
+  top: 60px;
+  right: 90px;
+  width: 200px;
+  height: 200px;
+}
+
 /* CONCEPT */
 
 .concept{
