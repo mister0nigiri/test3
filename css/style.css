@@ -948,9 +948,24 @@ input[type="checkbox"]:checked:before {
   font-family: "Noto Sans JP", sans-serif;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 200px;
   padding-left: 16px;
   padding-right: 16px;
+}
+
+.thanks-btn-box{
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.thanks-btn{
+  width: 200px;
+  border-radius: 20px;
+  display: inline-block;
+  border: 1px solid #333;
+  text-transform: uppercase;
+  padding: 5px;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 
