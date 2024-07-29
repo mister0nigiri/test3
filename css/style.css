@@ -7,8 +7,6 @@ html{
 
 body{
   color: #333;
-  font-family: 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;
-  font-family: 'メイリオ', 'Meiryo', sans-serif;
 }
 
 a{
@@ -92,6 +90,7 @@ li{
   background-color: #fff;
   font-size: 2.8125rem;
   font-weight: bold;
+  font-family: "Zen Maru Gothic", serif;
   text-align: center;
   line-height: 1.58;
   letter-spacing: .18em;
@@ -104,6 +103,7 @@ li{
 .mv__company{
   margin-top: 20px;
   font-size: 2.5625rem;
+  font-family: "Zen Maru Gothic", serif;
   line-height: 1.79;
   line-height: 1;
 }
@@ -111,15 +111,19 @@ li{
 .mv__date{
   margin-top: 20px;
   font-size: 5.5rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
   line-height: 1;
   text-transform: uppercase;
 }
 
 .mv__date span{
   font-size: 4.25rem;
+  font-family: "Zen Maru Gothic", serif;
 }
 
 .mv__btn{
+  margin-top: 20px;
   display: block;
   width: 299px;
   height: 72px;
@@ -186,6 +190,7 @@ li{
 .concept__top__title{
   display: inline-block;
   font-size: 2.1875rem;
+  font-family: "Zen Maru Gothic", serif;
   letter-spacing: .18em;
   border-bottom: 2px dotted #F6921E;
 }
@@ -194,6 +199,7 @@ li{
   margin-top: 15px;
   display: inline-block;
   font-size: 2.1875rem;
+  font-family: "Zen Maru Gothic", serif;
   letter-spacing: .18em;
   border-bottom: 2px dotted #F6921E;
 }
@@ -206,6 +212,7 @@ li{
   margin-top: 20px;
   font-size: 1.125rem;
   font-weight: normal;
+  font-family: "Noto Sans JP", sans-serif;
   letter-spacing: .14em;
   line-height: 2.08;
 }
@@ -228,12 +235,14 @@ li{
 .representative__title{
   font-size: 1.5625rem;
   font-weight: bold;
+  font-family: "Zen Maru Gothic", serif;
   letter-spacing: .14em;
   line-height: 1.7;
 }
 
 .representative__message{
   margin-top: 40px;
+  font-family: "Noto Sans JP", sans-serif;
   letter-spacing: .14em;
   line-height: 1.975;
 }
@@ -244,6 +253,7 @@ li{
 
 .representative__name{
   text-align: right;
+  font-family: "Noto Sans JP", sans-serif;
   line-height: 1.975;
 }
 
@@ -269,6 +279,7 @@ li{
   color: #fff;
   font-size: 2.1875rem;
   font-weight: bold;
+  font-family: "Zen Maru Gothic", serif;
   letter-spacing: .18em;
 }
 
@@ -283,6 +294,7 @@ li{
   border-radius: 16.5px;
   font-size: 1.25rem;
   font-weight: bold;
+  font-family: "Caveat", cursive;
   letter-spacing: .1em;
 }
 
@@ -316,6 +328,7 @@ li{
   color: #fff;
   text-align: center;
   font-size: 1.25rem;
+  font-family: "Zen Maru Gothic", serif;
   letter-spacing: .14em;
   white-space: nowrap;
 }
@@ -324,6 +337,7 @@ li{
   margin-top: 25px;
   color: #fff;
   font-size: 1rem;
+  font-family: "Noto Sans JP", sans-serif;
   letter-spacing: .14em;
   line-height: 2.08;
 }
@@ -374,6 +388,7 @@ li{
   color: #F6921E;
   font-size: 2.1875rem;
   font-weight: normal;
+  font-family: "Zen Maru Gothic", serif;
   letter-spacing: .18em;
   text-align: center;
 }
@@ -381,6 +396,7 @@ li{
 .keep__box__text{
   margin-top: 30px;
   font-size: 1.125rem;
+  font-family: "Noto Sans JP", sans-serif;
   line-height: 2.08;
   letter-spacing: .14em;
   text-align: center;
@@ -427,6 +443,7 @@ li{
   display: inline-block;
   font-size: 1.5625rem;
   font-weight: bold;
+  font-family: "Zen Maru Gothic", serif;
   letter-spacing: .14em;
   border-bottom: 3px dotted #F6921E;
   padding-bottom: 10px;
@@ -461,6 +478,7 @@ li{
   max-height: 36px;
   font-size: 1.125rem;
   font-weight: normal;
+  font-family: "Noto Sans JP", sans-serif;
   letter-spacing: .14em;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -470,6 +488,7 @@ li{
   width: 70%;
   font-size: 1.125rem;
   font-weight: normal;
+  font-family: "Noto Sans JP", sans-serif;
   letter-spacing: .14em;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -493,6 +512,7 @@ li{
   text-align: center;
   font-size: 2.1875rem;
   font-weight: bold;
+  font-family: "Zen Maru Gothic", serif;
   letter-spacing: .18em;
 }
 
@@ -507,6 +527,7 @@ li{
   border-radius: 16.5px;
   font-size: 1.25rem;
   font-weight: bold;
+  font-family: "Caveat", cursive;
   letter-spacing: .1em;
 }
 
@@ -514,6 +535,7 @@ li{
   margin-top: 30px;
   text-align: center;
   font-size: 1.125rem;
+  font-family: "Noto Sans JP", sans-serif;
   letter-spacing: .14em;
   line-height: 2.08;
 }
@@ -531,6 +553,7 @@ li{
   text-align: center;
   font-size: 1.5625rem;
   font-weight: bold;
+  font-family: "Zen Maru Gothic", serif;
   letter-spacing: .14em;
 }
 
@@ -547,6 +570,7 @@ li{
   height: 154px;
   font-size: 1.5625rem;
   font-weight: bold;
+  font-family: "Zen Maru Gothic", serif;
   text-align: center;
   letter-spacing: .14em;
   display: flex;
@@ -600,6 +624,7 @@ summary::-webkit-details-marker {
   color: #fff;
   font-size: 1.5625rem;
   font-weight: bold;
+  font-family: "Zen Maru Gothic", serif;
   letter-spacing: .14em;
   cursor: pointer;
   position: relative;
@@ -659,6 +684,7 @@ details.is-opened .icon::after {
   padding-bottom: 15px;
   border-bottom: 0.5px solid #333;
   font-size: 1.125rem;
+  font-family: "Noto Sans JP", sans-serif;
   letter-spacing: .14em;
 }
 
@@ -672,6 +698,7 @@ details.is-opened .icon::after {
   padding-bottom: 15px;
   border-bottom: 0.5px solid #333;
   font-size: 1.125rem;
+  font-family: "Noto Sans JP", sans-serif;
   letter-spacing: .14em;
   line-height: 2;
 }
@@ -710,6 +737,7 @@ details.is-opened .icon::after {
   text-align: center;
   font-size: 2.1875rem;
   font-weight: bold;
+  font-family: "Zen Maru Gothic", serif;
   letter-spacing: .18em;
 }
 
@@ -724,12 +752,14 @@ details.is-opened .icon::after {
   border-radius: 16.5px;
   font-size: 1.25rem;
   font-weight: bold;
+  font-family: "Caveat", cursive;
   letter-spacing: .1em;
 }
 
 .contact__top-message{
   margin-top: 40px;
   font-size: 1.125rem;
+  font-family: "Noto Sans JP", sans-serif;
   letter-spacing: .14em;
   text-align: center;
   white-space: nowrap;
@@ -745,6 +775,7 @@ details.is-opened .icon::after {
 
 .form__item label{
   font-size: 1.125rem;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .form__item label strong{
@@ -763,6 +794,7 @@ details.is-opened .icon::after {
 .form__item .form__body{
   margin-top: 10px;
   font-size: 1.125rem;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .form__item .form__body input{
@@ -816,6 +848,11 @@ details.is-opened .icon::after {
 
 .mb25{
   margin-bottom: 25px;
+}
+
+.mb25 p{
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.125rem;
 }
 
 .checkbox__body{
@@ -891,4 +928,11 @@ input[type="checkbox"]:checked:before {
   color: #fff;
   text-align: center;
   font-size: 0.875rem;
+  font-family: "Noto Sans JP", sans-serif;
 }
+
+
+/*-------------------------------------------
+SP
+-------------------------------------------*/
+@media screen and (max-width: 760px) {}
