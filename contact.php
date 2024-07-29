@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // メールの送信先
     $to = "gongyongjunyou@gmail.com";
     $subject = "お問い合わせフォームからのメッセージ";
-    $body = "名前: $name1 $name2\nフリガナ: $furigana1 $furigana2\nメールアドレス: $email\n電話番号: $tel\nお持ちの資格: $license\n備考:\n$textarea";
+    $body = "名前: $name1 $name2\nフリガナ: $furigana1 $furigana2\nメールアドレス: $email\n電話番号: $tel\nお持ちの資格: $license1 $license2\n備考:\n$textarea";
     $headers = "From: $email";
 
     // メールを送信
