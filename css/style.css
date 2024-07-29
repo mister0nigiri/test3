@@ -934,6 +934,25 @@ input[type="checkbox"]:checked:before {
   font-family: "Noto Sans JP", sans-serif;
 }
 
+/* thanks.html */
+
+.thanks-title{
+  margin-top: 200px;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.thanks-message{
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 200px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 
 /*-------------------------------------------
 SP

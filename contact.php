@@ -17,9 +17,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // メールを送信
     if (mail($to, $subject, $body, $headers)) {
-        echo "メッセージが送信されました。ありがとうございます！";
+        // メール送信成功後にサンクスページにリダイレクト
+        header("Location: thanks.html");
+        exit;
     } else {
         echo "メッセージの送信に失敗しました。後ほど再度お試しください。";
     }
+} else {
+    echo "不正なアクセスです。";
 }
 ?>
