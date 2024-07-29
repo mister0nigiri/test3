@@ -6,7 +6,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $furigana2 = htmlspecialchars($_POST['furigana2']);
     $email = htmlspecialchars($_POST['email']);
     $tel = htmlspecialchars($_POST['tel']);
-    $license = htmlspecialchars($_POST['license']);
+    $license1 = htmlspecialchars($_POST['license1']);
+    $license2 = htmlspecialchars($_POST['license2']);
     $textarea = htmlspecialchars($_POST['textarea']);
 
     // メールの送信先
