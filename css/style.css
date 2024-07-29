@@ -938,7 +938,7 @@ input[type="checkbox"]:checked:before {
 /*-------------------------------------------
 SP
 -------------------------------------------*/
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 870px) {
 
   /* HEADER */
 
@@ -1210,7 +1210,7 @@ SP
 
   .keep__box{
     margin-top: 40px;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 30px;
@@ -1499,4 +1499,8 @@ SP
   .submit-btn{
     width: 300px;
   }
+}
+
+@media screen and (max-width: 600px) {
+
 }

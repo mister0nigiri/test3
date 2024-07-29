@@ -1,13 +1,18 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = htmlspecialchars($_POST['name']);
+    $name1 = htmlspecialchars($_POST['name1']);
+    $name2 = htmlspecialchars($_POST['name2']);
+    $furigana1 = htmlspecialchars($_POST['furigana1']);
+    $furigana2 = htmlspecialchars($_POST['furigana2']);
     $email = htmlspecialchars($_POST['email']);
-    $message = htmlspecialchars($_POST['message']);
+    $tel = htmlspecialchars($_POST['tel']);
+    $license = htmlspecialchars($_POST['license']);
+    $textarea = htmlspecialchars($_POST['textarea']);
 
     // メールの送信先
-    $to = "your-email@example.com";
+    $to = "gongyongjunyou@gmail.com";
     $subject = "お問い合わせフォームからのメッセージ";
-    $body = "名前: $name\nメールアドレス: $email\nメッセージ:\n$message";
+    $body = "名前: $name1 $name2\nフリガナ: $furigana1 $furigana2\nメールアドレス: $email\n電話番号: $tel\nお持ちの資格: $license\n備考:\n$textarea";
     $headers = "From: $email";
 
     // メールを送信
