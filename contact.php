@@ -49,7 +49,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         -----------------------\n
         追って担当者よりご連絡いたします。\n
         ";
-        $autoReplyHeaders = "From: サンズ訪問介護ステーション <no-reply@example.com>\r\n";
+
+        // 日本語をエンコードしたFromヘッダー
+        $encodedFromName = "=?UTF-8?B?" . base64_encode("サンズ訪問介護ステーション") . "?=";
+        $autoReplyHeaders = "From: $encodedFromName <no-reply@example.com>\r\n";
         $autoReplyHeaders .= "Reply-To: no-reply@example.com\r\n";
         $autoReplyHeaders .= "MIME-Version: 1.0\r\n";
         $autoReplyHeaders .= "Content-Type: text/plain; charset=UTF-8\r\n";
