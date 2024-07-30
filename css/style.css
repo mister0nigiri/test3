@@ -120,6 +120,7 @@ li{
 
 .mv__date span{
   font-size: 4.25rem;
+  font-weight: bold;
   font-family: "Zen Maru Gothic", serif;
 }
 
@@ -569,7 +570,8 @@ li{
 }
 
 .recruit__process__circle li{
-  background-color: #F6921E;
+  background: rgb(250,175,59);
+  background: linear-gradient(90deg, rgba(250,175,59,1) 0%, rgba(255,230,136,1) 100%);
   border-radius: 50%;
   width: 154px;
   height: 154px;
